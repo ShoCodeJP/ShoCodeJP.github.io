@@ -440,6 +440,11 @@ section:nth-of-type(even) {
   line-height: 1.75;
 }
 
+.register-section p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 /* ---- Footer ---- */
 
 .site-footer {
