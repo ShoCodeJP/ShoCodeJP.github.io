@@ -422,6 +422,60 @@ section:nth-of-type(even) {
   color: var(--deep-ocean);
 }
 
+/* ---- Support (Claude credits) ---- */
+
+.support-card {
+  background: linear-gradient(170deg, var(--ocean-blue) 0%, var(--deep-ocean) 100%);
+  border-radius: 12px;
+  padding: 2.25rem 2rem;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2.25rem;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(11, 37, 69, 0.08);
+}
+
+.support-logo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.support-text p {
+  margin: 0 0 0.75rem;
+  line-height: 1.65;
+  color: var(--text-light);
+}
+
+.support-text p:last-child {
+  margin-bottom: 0;
+}
+
+.support-text strong {
+  color: #fff;
+}
+
+.support-text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.support-note {
+  font-size: 0.9rem;
+  color: var(--seafoam) !important;
+}
+
+@media (max-width: 640px) {
+  .support-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .support-logo {
+    max-width: 160px;
+    margin: 0 auto;
+  }
+}
+
 /* ---- Register CTA ---- */
 
 .register-section {
